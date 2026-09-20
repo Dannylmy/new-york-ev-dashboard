@@ -6,11 +6,15 @@ An interactive dashboard by Mingyu Liang for exploring electric-vehicle registra
 
 ## Open and share / 打开与分享
 
+**[Open the live dashboard / 在线打开看板](https://dannylmy.github.io/new-york-ev-dashboard/)**
+
+**[Download all files as ZIP / 下载完整项目](https://github.com/Dannylmy/new-york-ev-dashboard/archive/refs/heads/main.zip)**
+
 1. On GitHub, choose **Code → Download ZIP**, then extract the archive.
 2. Open **[index.html](index.html)** in Chrome, Edge, Safari, or Firefox. No installation or Python environment is required.
 3. Keep an internet connection for the Leaflet map libraries and CARTO / OpenStreetMap basemap. Registration aggregates are embedded in the HTML.
 
-GitHub's repository preview displays HTML source rather than running the dashboard. Download and open the HTML locally, or enable GitHub Pages under **Settings → Pages → Deploy from a branch → main → / (root)** for a browser-viewable link.
+GitHub's repository preview displays HTML source rather than running the dashboard. Use the live link above, or download and open the HTML locally. GitHub Pages publishes from **main → / (root)**. The live map, county filter and reset action were verified after deployment on 2026-09-20.
 
 下载 ZIP 并解压后，双击 `index.html` 即可打开。图表数据已内嵌；地图底图和地图组件需要联网。直接分享完整 ZIP 可同时提供看板、Markdown 说明和原始 CSV。
 
